@@ -1,13 +1,7 @@
 import React, { Component } from "react";
 import './SearchForm.scss';
-import TextField from '@material-ui/core/TextField';
 import Input from 'muicss/lib/react/input';
-import { withStyles, MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import RootRef from '@material-ui/core/RootRef';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import green from '@material-ui/core/colors/green';
+
 
 
 class Filters extends Component {
