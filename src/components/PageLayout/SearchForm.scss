@@ -1,0 +1,26 @@
+#search-form{
+  margin-left: 20px;
+  width: 300px;
+
+    input{
+      background-color: white;
+    }
+
+    .search-list-item span{
+      font-size: 1em;
+    }
+
+  #search-form-result{
+    background-color: white;       
+    position: absolute;
+    color: black;
+    font-size: 2rem;    
+    border: 1px solid black;
+    border-radius: 0.1em;
+    padding: 10px 3em 10px 0;
+
+    ul li{
+      list-style-type: none;
+    } 
+  }
+}
